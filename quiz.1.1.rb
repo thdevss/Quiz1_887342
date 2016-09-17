@@ -53,7 +53,7 @@ US_states =
 
 #1.1
 US_states.each { |k, v| 
-	if k[-1,1]=="t" || k[-1,1]=="n" 
+	if k[-1]=="t" || k[-1]=="n" 
 		puts v
 	end  
 }
